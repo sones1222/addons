@@ -19,10 +19,10 @@
   ],
   "options": {
     "RS485": {
-      "type": "Serial"
+      "type": "Socket"
     },
     "Socket": {
-      "server": "192.168.x.x",
+      "server": "192.168.75.6",
       "port": 8899
     },
     "SocketDevice": {
@@ -36,17 +36,17 @@
     },
     "MQTT": {
       "anonymous": false,
-      "server": "192.168.x.x",
-      "username": "id",
-      "password": "pw"
+      "server": "192.168.75.4",
+      "username": "sones1222",
+      "password": "Ses87052$00"
     },
     "Wallpad": {
-      "light": false,
-      "plug": false,
-      "thermostat": false,
-      "fan": false,
+      "light": true,
+      "plug": true,
+      "thermostat": true,
+      "fan": true,
       "gas": false,
-      "elevator": false
+      "elevator": true
     },
     "Advanced": {
       "INIT_TEMP": 22,
@@ -58,7 +58,7 @@
     "KOCOM_LIGHT_SIZE": [
       {
         "name": "livingroom",
-        "number": 3
+        "number": 4
       },
       {
         "name": "bedroom",
@@ -66,37 +66,37 @@
       },
       {
         "name": "room1",
-        "number": 2
+        "number": 0
       },
       {
         "name": "room2",
-        "number": 2
+        "number": 0
       },
       {
         "name": "kitchen",
-        "number": 3
+        "number": 0
       }
     ],
     "KOCOM_PLUG_SIZE": [
       {
         "name": "livingroom",
-        "number": 3
+        "number": 2
       },
       {
         "name": "bedroom",
-        "number": 2
+        "number": 0
       },
       {
         "name": "room1",
-        "number": 2
+        "number": 0
       },
       {
         "name": "room2",
-        "number": 2
+        "number": 0
       },
       {
         "name": "kitchen",
-        "number": 3
+        "number": 0
       }
     ],
     "KOCOM_ROOM": [
